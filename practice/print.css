@@ -1,0 +1,20 @@
+
+.header{
+	position: static;
+
+	-webkit-print-color-adjust: exact;
+}
+
+.content{
+	-webkit-print-color-adjust: exact;
+	padding: 0px 20px;
+	margin: -22px auto;
+}
+
+.print-btn{
+	display: none;
+}
+
+@page{
+	margin: 0;
+}
